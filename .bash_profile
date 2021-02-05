@@ -11,6 +11,7 @@ alias g='git status'
 alias ga='git add .'
 alias gcm='git commit -m'
 alias gpu="git push"
+alias gpusu="git push --set-upstream origin master"
 alias gp="git pull"
 alias gm="git merge"
 alias gc='git checkout'
