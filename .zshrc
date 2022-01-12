@@ -1,6 +1,6 @@
 alias lll="ls -lah@e"
 alias c="code"
-alias aliases="code ~/.bash_profile"
+alias aliases="code ~/.zshrc"
 function take {
 	mkdir $1
 	cd $1
@@ -25,7 +25,7 @@ function gg() {
 }
 
 #Finder
-alias refresh=". ~/.bash_profile"
+alias refresh=". ~/.zshrc"
 
 #Processes
 alias tu='top -o cpu' #cpu
